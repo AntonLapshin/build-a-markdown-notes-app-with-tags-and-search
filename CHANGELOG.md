@@ -21,3 +21,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   title and/or markdown body; empty/whitespace query returns all) and
   `filterNotesByTags` (ANY-tag semantics; empty/whitespace tag set returns all) in
   `src/core/notesSearch.ts`. Both are pure, non-mutating, and covered at 100%.
+
+### Changed
+
+- Marked project **complete for autonomous work**: Milestone M1 (core notes
+  domain) fully merged and CI-green; `src/core/**` at 100% coverage; tests (45)
+  and build passing. The live Pages demo remains **blocked on a human decision**
+  (private repo; free-plan Pages requires public repo) and is tracked in #3.
