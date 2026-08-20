@@ -8,7 +8,8 @@
 
 The React + Tailwind + TypeScript scaffold is in place and verified locally
 (tests pass, 100% core coverage, build succeeds). M1-T1 (core notes model with
-CRUD + tag normalization) is implemented and covered at 100%.
+CRUD + tag normalization) and M1-T2 (core search + tag filtering) are implemented
+and covered at 100%.
 
 ## What's here
 
@@ -22,7 +23,7 @@ CRUD + tag normalization) is implemented and covered at 100%.
 ## Planned (Milestone M1 — core notes domain)
 
 - [x] #1 **M1-T1** Core notes model (id, title, markdown body, tags) with CRUD + tag normalization.
-- [ ] #2 **M1-T2** Core search + tag filtering for notes.
+- [x] #2 **M1-T2** Core search + tag filtering for notes.
 
 ## Next steps (after M1)
 - [ ] UI slice: note view model + list/editor components wired to core.

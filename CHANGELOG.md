@@ -17,3 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   pure CRUD (`createNote`, `getNote`, `listNotes`, `updateNote`, `deleteNote`) and
   tag normalization (trim, lowercase, de-duplicate, drop empty) in `src/core/notes.ts`,
   covered at 100%.
+- Core search + tag filtering (M1-T2): `searchNotes` (case-insensitive match against
+  title and/or markdown body; empty/whitespace query returns all) and
+  `filterNotesByTags` (ANY-tag semantics; empty/whitespace tag set returns all) in
+  `src/core/notesSearch.ts`. Both are pure, non-mutating, and covered at 100%.
