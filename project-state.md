@@ -4,11 +4,11 @@
 
 ## Status
 
-**In progress — Milestone M1 (core notes domain) planned.**
+**In progress — Milestone M1 (core notes domain) in progress.**
 
 The React + Tailwind + TypeScript scaffold is in place and verified locally
-(tests pass, 100% core coverage, build succeeds). The next slice implements the
-core notes domain (notes + tags + search) before UI/deployment work.
+(tests pass, 100% core coverage, build succeeds). M1-T1 (core notes model with
+CRUD + tag normalization) is implemented and covered at 100%.
 
 ## What's here
 
@@ -21,7 +21,7 @@ core notes domain (notes + tags + search) before UI/deployment work.
 
 ## Planned (Milestone M1 — core notes domain)
 
-- [ ] #1 **M1-T1** Core notes model (id, title, markdown body, tags) with CRUD + tag normalization.
+- [x] #1 **M1-T1** Core notes model (id, title, markdown body, tags) with CRUD + tag normalization.
 - [ ] #2 **M1-T2** Core search + tag filtering for notes.
 
 ## Next steps (after M1)
